@@ -32,7 +32,7 @@ const BirthDateForm: React.FC<BirthDateFormProps> = ({setWeeksEndured}) => {
                 <input 
                     value={dateValue ? dateValue.toISOString().split('T')[0] : ''} 
                     onChange={handleDateChange} 
-                    className="bg-black pl-2 pr-2 border rounded-sm" 
+                    className="bg-white text-black pl-2 pr-2 border rounded-sm" 
                     type="date"
                 />
             </div>
